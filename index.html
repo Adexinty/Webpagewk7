@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Company Roles with Multi-Theme Toggle</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body class="light-theme">
+  <div class="card-container">
+    <div class="card" onclick="triggerAnimation(this)">
+      <h2>Junior Developer</h2>
+      <p>Bounce on hover</p>
+    </div>
+    <div class="card" onclick="triggerAnimation(this)">
+      <h2>Senior Developer</h2>
+      <p>Bounce on hover</p>
+    </div>
+    <div class="card" onclick="triggerAnimation(this)">
+      <h2>Product Designer</h2>
+      <p>Bounce on hover</p>
+    </div>
+    <div class="card" onclick="triggerAnimation(this)">
+      <h2>Marketing Specialist</h2>
+      <p>Bounce on hover</p>
+    </div>
+  </div>
+
+  <select class="theme-selector" onchange="changeTheme(this.value)">
+    <option value="light">Light Theme</option>
+    <option value="dark">Dark Theme</option>
+    <option value="yellow">Yellow Theme</option>
+    <option value="gray">Gray Theme</option>
+  </select>
+
+  <script src="script.js"></script>
+</body>
+</html>
