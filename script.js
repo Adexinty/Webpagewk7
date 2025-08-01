@@ -20,3 +20,4 @@ function loadTheme() {
 }
 
 window.onload = loadTheme;
+
